@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Movie Recommendation System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hero">
+        <h1>🎬 AI Movie Recommendation System</h1>
+        <p>Select genres and get personalized recommendations.</p>
+    </div>
+
+    <div class="panel">
+
+        <h3>Select Genres</h3>
+
+        <div id="genres"></div>
+
+        <input
+            type="text"
+            id="movieSearch"
+            placeholder="Search movie name..."
+            class="search-box"
+            onkeypress="handleSearch(event)"
+        >
+
+        <button onclick="recommendMovies()">
+            Recommend Movies
+        </button>
+
+    </div>
+
+    <div id="topPick"></div>
+
+    <div id="results" class="results"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
