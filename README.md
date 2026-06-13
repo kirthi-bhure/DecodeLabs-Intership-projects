@@ -1,5 +1,4 @@
 # DecodeLabs-Intership-projects
-# DecodeLabs Internship Projects
 
 This repository contains the projects completed during the DecodeLabs Internship Program.
 
