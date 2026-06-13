@@ -145,7 +145,7 @@ Add screenshots of the chatbot interface here.
 
 Kirthi
 
-Developed as part of a Web Decolabs Internship 
+Developed as part of a Web Decodelabs Internship 
 
 ---
 
